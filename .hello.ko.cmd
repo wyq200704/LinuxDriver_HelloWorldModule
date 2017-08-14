@@ -1,1 +1,0 @@
-cmd_/home/wangyanqing/linux_dirver_learn/1.helloworld/hello.ko := ld -r -m elf_x86_64 -T ./scripts/module-common.lds --build-id  -o /home/wangyanqing/linux_dirver_learn/1.helloworld/hello.ko /home/wangyanqing/linux_dirver_learn/1.helloworld/hello.o /home/wangyanqing/linux_dirver_learn/1.helloworld/hello.mod.o ;  true
