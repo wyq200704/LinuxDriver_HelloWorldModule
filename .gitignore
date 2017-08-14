@@ -2,6 +2,11 @@
 #foo.txt
 # 忽略所有生成的cmd文件,
 *.cmd
+*.mod.*
+*.o
+*.order
+*.symvers
+1.HelloWorld/.tmp_versions/
 # foo.html是手工维护的，所以例外.
 #!foo.html
 # 忽略所有.o和 .a文件.
