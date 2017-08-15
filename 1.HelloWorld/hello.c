@@ -3,7 +3,8 @@
 #include <linux/kernel.h>
 
 MODULE_LICENSE("Dual BSD/GPL");
-
+MODULE_AUTHOR("wangyanqing");
+MODULE_DESCRIPTION("This is only a HelloWorld kernel demo");
 static int hello_init(void)
 {
     printk("<1> Hello world!\n");
